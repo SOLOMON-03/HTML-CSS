@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Solomon</title>
+        <style>
+            fieldset{
+                margin-top: 300px;
+                margin-left: 600px;
+                margin-right: 600px;
+                margin-bottom: 100px;
+                background-color: whitesmoke ;
+                opacity: 80%;
+            }
+            body{
+                background: url("wallpapersden.com_zenitsu-agatsuma-cool-demon-slayer_3840x2160.jpg");
+                background-position: center;
+                background-color: black;
+                background-size: 1545px 788px;
+                background-repeat: no-repeat;  
+                font-style: bold;     
+                font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:black;   
+            }
+           
+        </style>
+    </head>
+    <body>
+        <script >            
+            function sub(){
+                let v="Data Submitted Succesfully";
+                document.write(v);
+            }
+        </script>
+            <fieldset><form onsubmit="return sub();"><table >
+                    <tr><td><label>Name: </label></td>
+                    <td><input type="text" required ></td></tr>
+                    <tr><td><label>Phone Number: </label></td>
+                    <td><input type="number" minlength="10"></td></tr>
+                    <tr><td><label>Email: </label></td>
+                    <td><input type="email" required></td></tr>
+                    <tr><td><label>Password: </label></td>
+                    <td><input type="password"></td></tr>
+                    <tr ><td ><br></td></tr>
+                    <tr ><td colspan="2" align="center"><input type="submit" onsubmit="document.write(sub())"></td></tr></table>
+            </form></fieldset>
+    </body>
+</html>
